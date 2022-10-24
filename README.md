@@ -10,6 +10,6 @@ In the project directory, you can run:
 
 ### `yarn nodemon server.js`
 
-Runs the express.\
+Run the express.\
 Open [http://localhost:3333]
 
