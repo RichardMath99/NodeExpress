@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-express-sequelize-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.4.2",
+    "sequelize": "^5.21.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^5.5.1"
+  }
+}
